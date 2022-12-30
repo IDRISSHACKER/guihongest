@@ -1,0 +1,57 @@
+{
+  "name": "guihongest",
+  "version": "0.0.1",
+  "description": "Application pour la gestion de l'entreprise guihon",
+  "productName": "Gestion guihon",
+  "author": "IDR6IX DUVAL <idrissleutch@cinaf.tv>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --fix --ext .js,.ts,.vue ./",
+    "format": "prettier --write \"**/*.{js,ts,vue,scss,html,md,json}\" --ignore-path .gitignore",
+    "test": "vitest --ui --dom",
+    "coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "@vue/test-utils": "^2.2.5",
+    "@vuelidate/core": "^2.0.0",
+    "@vuelidate/validators": "^2.0.0",
+    "axios": "^0.21.1",
+    "chart.js": "^4.1.1",
+    "date-fns": "^2.29.3",
+    "pinia": "^2.0.11",
+    "pinia-plugin-persistedstate": "^3.0.1",
+    "quasar": "^2.6.0",
+    "quasar-components-chart": "^0.1.7",
+    "vite-plugin-vitest-typescript-assert": "^1.1.4",
+    "vue": "^3.0.0",
+    "vue-i18n": "^9.2.2",
+    "vue-router": "^4.0.0",
+    "vue3-recaptcha2": "^1.7.0"
+  },
+  "devDependencies": {
+    "@intlify/vite-plugin-vue-i18n": "^3.3.1",
+    "@pinia-plugin-persistedstate/nuxt": "^1.0.0",
+    "@quasar/app-vite": "^1.0.0",
+    "@quasar/quasar-app-extension-testing": "^2.0.6",
+    "@types/node": "^12.20.21",
+    "@types/vuelidate": "^0.7.15",
+    "@typescript-eslint/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/parser": "^5.10.0",
+    "@vitest/coverage-c8": "^0.25.3",
+    "@vitest/ui": "^0.25.3",
+    "autoprefixer": "^10.4.2",
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "happy-dom": "^7.7.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.4",
+    "vitest": "^0.25.3"
+  },
+  "engines": {
+    "node": "^18 || ^16 || ^14.19",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
